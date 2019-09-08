@@ -42,7 +42,7 @@ class UserConnection(models.Model):
         return self.creator.username + ' follows ' + self.following.username
 
 
-
+# Post model
 class Post(models.Model):
     author = models.ForeignKey(
         InstaUser,
