@@ -7,7 +7,6 @@ from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from Insta.forms import CustomUserCreationForm
 from Insta.models import Post, Like, InstaUser, UserConnection
 
-# test
 class HelloWorld(TemplateView):
     template_name = 'test.html'
 
